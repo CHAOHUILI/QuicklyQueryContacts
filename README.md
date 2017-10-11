@@ -19,7 +19,7 @@
 然后在你moudule的build.gradle添加依赖:
 
 	dependencies {
-	      compile 'com.github.CHAOHUILI:QuicklyQueryContacts:v1.0.0'
+	      compile 'com.github.CHAOHUILI:QuicklyQueryContacts:v1.1.0'
 	}
   
   具体使用（使用方法和此代码库中MainActivity方法相同，可下载参考！！！）：
