@@ -3,6 +3,7 @@ package com.lihuichao.testquerycontacts;
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.ViewGroup;
 import android.view.animation.OvershootInterpolator;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -27,6 +28,8 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         quickIndexBar = findViewById(R.id.quickIndexBar);
+        quickIndexBar.paint.setColor(getResources().getColor(R.color.colorAccent));
+        quickIndexBar.paint.setTextSize(12);
         listview = findViewById(R.id.listview);
         currentWord =  findViewById(R.id.currentWord);
 
