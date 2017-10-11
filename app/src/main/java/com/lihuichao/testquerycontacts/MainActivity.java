@@ -28,7 +28,9 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         quickIndexBar = findViewById(R.id.quickIndexBar);
+        //设置导航字母的颜色
         quickIndexBar.paint.setColor(getResources().getColor(R.color.colorAccent));
+        //设置导航字母的字体大小
         quickIndexBar.paint.setTextSize(12);
         listview = findViewById(R.id.listview);
         currentWord =  findViewById(R.id.currentWord);
